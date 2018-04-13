@@ -1,0 +1,9 @@
+{
+  "name": "frond",
+  "version": "0.0.1",
+  "description": "FROnt-eND builder",
+  "main": "index.js",
+  "repository": "https://github.com/Cryden/FROND",
+  "author": "CRYDEsigN <Cryden_da@mail.ru>",
+  "license": "MIT"
+}
