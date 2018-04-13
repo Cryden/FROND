@@ -5,5 +5,11 @@
   "main": "index.js",
   "repository": "https://github.com/Cryden/FROND",
   "author": "CRYDEsigN <Cryden_da@mail.ru>",
-  "license": "MIT"
+  "license": "MIT",
+  "bin": {
+    "frond": "index.js"
+  },
+  "dependencies": {
+    "commander": "^2.15.1"
+  }
 }
