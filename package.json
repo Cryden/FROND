@@ -1,10 +1,10 @@
 {
-  "name": "frond",
-  "version": "0.0.1",
+  "name": "frond-builder",
+  "version": "0.0.2",
   "description": "FROnt-eND builder",
   "main": "index.js",
   "repository": "https://github.com/Cryden/FROND",
-  "author": "CRYDEsigN <Cryden_da@mail.ru>",
+  "author": "cryden",
   "license": "MIT",
   "bin": {
     "frond": "index.js"
@@ -13,3 +13,4 @@
     "commander": "^2.15.1"
   }
 }
+
