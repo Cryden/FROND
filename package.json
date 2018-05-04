@@ -1,6 +1,6 @@
 {
-  "name": "frond",
-  "version": "0.0.1",
+  "name": "frond-builder",
+  "version": "0.0.2",
   "description": "FROnt-eND builder",
   "main": "index.js",
   "repository": "https://github.com/Cryden/FROND",
@@ -10,3 +10,4 @@
     "commander": "^2.15.1"
   }
 }
+
