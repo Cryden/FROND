@@ -1,14 +1,18 @@
 {
   "name": "frond-builder",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "FROnt-eND builder",
   "main": "index.js",
   "repository": "https://github.com/Cryden/FROND",
   "author": "CRYDEsigN <Cryden_da@mail.ru>",
   "license": "MIT",
   "dependencies": {
-    "commander": "^2.15.1",
+    "commander": "^2.15.1"
+  },
+  "devDependencies": {
     "standard": "^11.0.1"
   },
-  "devDependencies": {}
+  "bin": {
+    "frond": "index.js"
+  }
 }

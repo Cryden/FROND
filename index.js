@@ -1,17 +1,47 @@
 #!/usr/bin/env node
- 
+
 /**
  * Module dependencies.
  */
- 
-var program = require('commander');
- 
+
+var program = require('commander')
+
 program
   .version(require('./package.json').version, '-v, --version')
-  .option('-u, --update', 'update FROND')
-  .parse(process.argv);
 
+program
+  .command('setup')
+  .description('setup FROND')
+  .action(function () {
+    console.log('SETUP...')
+  })
 
-if (!program.args.length) program.help();
+program
+  .command('development')
+  .alias('dev')
+  .description('run FROND in development mode')
+  .action(function () {
+    console.log('DEV...')
+  })
 
-console.log('FROND by CRYDEsigN. 2018');
+program
+  .command('production')
+  .alias('prod')
+  .description('run FROND in production mode')
+  .action(function () {
+    console.log('PROD...')
+  })
+
+program
+  .command('update')
+  .alias('up')
+  .description('update FROND')
+  .action(function () {
+    console.log('UPDATE...')
+  })
+
+// program.help()
+
+program.parse(process.argv)
+
+console.log('FROND by CRYDEsigN. 2018')
