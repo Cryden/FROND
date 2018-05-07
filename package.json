@@ -1,6 +1,6 @@
 {
   "name": "frond-builder",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "FROnt-eND builder",
   "main": "index.js",
   "repository": "https://github.com/Cryden/FROND",

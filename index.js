@@ -10,6 +10,13 @@ program
   .version(require('./package.json').version, '-v, --version')
 
 program
+  .command('init')
+  .description('init FROND')
+  .action(function () {
+    require('./app/init')
+  })
+
+program
   .command('setup')
   .description('setup FROND')
   .action(function () {
