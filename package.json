@@ -7,7 +7,8 @@
   "author": "CRYDEsigN <Cryden_da@mail.ru>",
   "license": "MIT",
   "dependencies": {
-    "commander": "^2.15.1"
+    "commander": "^2.15.1",
+    "express": "^4.16.3"
   },
   "devDependencies": {
     "standard": "^11.0.1"
