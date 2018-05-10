@@ -11,7 +11,14 @@
     "express": "^4.16.3"
   },
   "devDependencies": {
-    "standard": "^11.0.1"
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "path": "^0.12.7",
+    "pug": "^2.0.3",
+    "pug-plain-loader": "^1.0.0",
+    "standard": "^11.0.1",
+    "webpack": "^4.8.1",
+    "webpack-cli": "^2.1.3"
   },
   "bin": {
     "frond": "index.js"

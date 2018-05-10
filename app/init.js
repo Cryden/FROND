@@ -1,4 +1,5 @@
 const fs = require('fs')
+const path = require('path')
 
 const express = require('express')
 const app = express()
@@ -16,8 +17,10 @@ function checkDefaultConfig () {
 }
 
 function init () {
+  app.use(express.static('app/client'))
+
   app.get('/', (request, response) => {
-    response.send('Configure FROND!')
+    response.sendFile(path.resolve('app/client/index.html'))
   })
 
   app.post('/', (request, response) => {
